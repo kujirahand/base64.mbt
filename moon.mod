@@ -19,6 +19,6 @@ repository = ""
 
 license = "Apache-2.0"
 
-keywords = []
+keywords = ["base64", "encoding", "decoding"]
 
-description = ""
+description = "Base64 encoding and decoding library"
