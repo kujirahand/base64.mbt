@@ -1,6 +1,8 @@
 # kujirahand/ base64.mbt
 
-Base64 Package for MoonBit
+Base64 Package for MoonBit.
+
+However, the MoonBit [core library](https://github.com/moonbitlang/core/tree/main/encoding/base64) already includes Base64 encoding and decoding. I created this package to test MoonBit's features.
 
 ## Add to your project
 
@@ -26,3 +28,4 @@ println(@base64.encode_bytes(b"Hello, World!")) // b"SGVsbG8sIFdvcmxkIQ=="
 println(@base64.decode_utf8("SGVsbG8sIFdvcmxkIQ==")) // "Hello, World!"
 println(@base64.decode_bytes("SGVsbG8sIFdvcmxkIQ==")) // b"Hello, World!"
 ```
+
