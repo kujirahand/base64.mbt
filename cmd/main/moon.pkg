@@ -1,0 +1,7 @@
+import {
+  "kujirahand/base64" @base64,
+}
+
+options(
+  "is-main": true,
+)
